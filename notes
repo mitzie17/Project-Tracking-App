@@ -11,3 +11,4 @@
 - tailwind-merge, clsx : prevent Tailwind class names from getting too big
 - @clerk/nextjs : for authentication and billing
 - tw-animate-css :
+- shadcn : ui prewritten React components
