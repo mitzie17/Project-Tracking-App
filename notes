@@ -1,0 +1,13 @@
+- Application notes for self \*
+
+# Libraries installed
+
+- @supabase/ssr(server side rendering) : for database and backend handling
+- @dnd-kit/core, @dnd-kit/sortable, @dnd-kit/utilities : for the drag and drop feature
+- @radix-ui/react-dialog : dialog in app
+- @radix-ui/react-label, @radix-ui/react-select, @radix-ui/react-slot
+- lucide-react : for icons
+- class-variance-authority : required by shadcn to use with radix for compability reasons
+- tailwind-merge, clsx : prevent Tailwind class names from getting too big
+- @clerk/nextjs : for authentication and billing
+- tw-animate-css :
