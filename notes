@@ -12,3 +12,16 @@
 - @clerk/nextjs : for authentication and billing
 - tw-animate-css :
 - shadcn : ui prewritten React components
+  - added badge, button, card, dialog, input, label, select, textarea components
+
+# .env file
+
+- contains API keys from clerk account
+
+# middleware.ts
+
+- per clerk instructions this file enables authentication and is where you'll configure your protected routes
+
+# ClerkProvider
+
+- The ClerkProvidercomponent provides Clerk's authentication context to the app. It's recommended to wrap the entire app at the entry point with ClerkProvider to make authentication globally accessible. see: app > layout.tsx
