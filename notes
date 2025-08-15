@@ -24,4 +24,15 @@
 
 # ClerkProvider
 
-- The ClerkProvidercomponent provides Clerk's authentication context to the app. It's recommended to wrap the entire app at the entry point with ClerkProvider to make authentication globally accessible. see: app > layout.tsx
+- The ClerkProvidercomponent provides Clerk's authentication context to the app. It's recommended to wrap the entire app at the entry point with ClerkProvider to make authentication globally accessible
+  see: app > layout.tsx
+
+# SignInButton and SignUpButton
+
+- these components from clerk handle the authentication and onclick functionality of a shadcn Button component
+  see: navbar.tsx
+
+# useUser hook
+
+- hook from clerk that holds information about the user such as knowing if the user is logged in or not
+  see: navbar.tsx
