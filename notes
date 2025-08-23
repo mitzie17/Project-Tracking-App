@@ -36,3 +36,8 @@
 
 - hook from clerk that holds information about the user such as knowing if the user is logged in or not
   see: navbar.tsx
+
+# pathname hook
+
+- tells us on which path the user is in, that way we can hide certain elements in the navbar depending on where the user is, ex: no need to have the Go to Dashboard button when the user is already in the dashboard page
+  see: navbar.tsx
