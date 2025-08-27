@@ -7,12 +7,14 @@ import { useUser } from "@clerk/nextjs";
 import { EmailAddress } from "@clerk/nextjs/server";
 import { Plus } from "lucide-react";
 
+// https://safe-man-9.clerk.accounts.dev
+
 export default function DashboardPage() {
   const { user } = useUser();
   const { createBoard } = useBoards();
 
   const handleCreateBoard = async () => {
-    await createBoard();
+    await createBoard({ title: "New Board" });
   };
   return (
     <div className="min-h-screen bg-gray-50">
