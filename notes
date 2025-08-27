@@ -56,3 +56,18 @@
 
 - this file is similar to client.ts except it is for the server. the code from these files is found in supabase docs
   see: lib > supabase > server.ts
+
+# services.ts
+
+- contains all CRUD operations of a board
+  see: lib > supabase > services.ts
+
+# createBoard(services.ts) vs createBoard(useBoards.ts)
+
+- not the same functions
+- createBoard in services.ts, creates the board itself in supabase but has no columns
+- createBoard in useBoards.ts, creates default columns with the board
+
+# boardDataService
+
+- contains functions that operate with more than one services. ex: createBoardWithDefaultColumns operates the boardService and columnService
