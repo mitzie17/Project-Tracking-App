@@ -41,3 +41,18 @@
 
 - tells us on which path the user is in, that way we can hide certain elements in the navbar depending on where the user is, ex: no need to have the Go to Dashboard button when the user is already in the dashboard page
   see: navbar.tsx
+
+# models.ts
+
+- this file translates the tables (boards, columns, tasks) from supabase into typescript table types
+  see: lib > supabase > models.ts
+
+# client.ts
+
+- this file in supabase folder, will export a supabase instance that is accessible in our client component. ex: createBrowserClient is a supabase function from the client part in supabase
+  see : lib > supabase > client.ts
+
+# server.ts
+
+- this file is similar to client.ts except it is for the server. the code from these files is found in supabase docs
+  see: lib > supabase > server.ts
