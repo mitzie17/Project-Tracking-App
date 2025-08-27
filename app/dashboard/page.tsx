@@ -2,6 +2,7 @@
 
 import Navbar from "@/components/navbar";
 import { Button } from "@/components/ui/button";
+import { useBoards } from "@/lib/hooks/useBoards";
 import { useUser } from "@clerk/nextjs";
 import { EmailAddress } from "@clerk/nextjs/server";
 import { Plus } from "lucide-react";
